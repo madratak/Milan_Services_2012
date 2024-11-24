@@ -1,6 +1,13 @@
-# Data and Information Quality Project: Milano Services Dataset
+<p align="center">
+  <img src="https://www.recipe-project.eu/wp-content/uploads/2018/05/logo_polimi.png" width="500"/>
+</p>
 
-This repository contains the work done for the **Data and Information Quality** project, where we analyze and clean a dataset related to services in Milan, specifically focusing on hairdressers and beauticians. The dataset has been sourced from the Italian open data platform **Comune di Milano**. The project aims to apply data quality techniques, such as data profiling, cleaning, and analysis, to this real-world dataset.
+# DIQ Project
+
+This repository contains the work done for the **Data and Information Quality** project at **PoliMI**, where we analyze and clean a dataset related to services in Milan, specifically focusing on hairdressers and beauticians. The project aims to apply data quality techniques, such as data profiling, cleaning, and analysis, to this real-world dataset.
+
+The dataset has been sourced from the Italian open data platform of the *Comune di Milano* ([link](http://www.datiopen.it/it/opendata/Comune_di_Milano_Esercizi_commerciali_Servizi_alla_persona_parrucchieri_estetisti_
+)).
 
 ### Project Overview
 
@@ -18,7 +25,29 @@ The dataset contains information on commercial activities, specifically focusing
 The project repository is structured as follows:
 
 ```
-/project-directory │ ├── notebooks/ # Jupyter Notebooks for analysis and exploration │ ├── 01-first-logical-notebook.ipynb │ ├── 02-second-logical-notebook.ipynb │ └── prototype-notebook.ipynb │ ├── src/ # Source code for the project │ ├── init.py │ ├── data_preparation.py # Data cleaning and transformation functions │ ├── data_analysis.py # Data analysis and model-related functions │ └── utils.py # Helper functions │ ├── data/ # Raw, processed, and cleaned data │ ├── raw/ # Raw data as provided by Comune di Milano │ ├── processed/ # Intermediate processed data │ └── cleaned/ # Final cleaned dataset │ ├── tests/ # Unit tests to ensure code correctness │ ├── test_data_preparation.py │ └── test_data_analysis.py │ ├── requirements.txt # Required Python libraries for the project ├── .gitignore # Files and directories to be excluded from version control ├── README.md # Project documentation └── environment.yml # Conda environment file (if using Conda)
+/project-directory
+│
+├── notebooks/                  # Jupyter Notebooks for analysis and exploration
+│   ├── 01-first-logical-notebook.ipynb
+│   └── prototype-notebook.ipynb
+│
+├── src/                        # Source code for the project
+│   ├── data_preparation.py     # Data cleaning and transformation functions
+│   ├── data_analysis.py        # Data analysis and model-related functions
+│   └── utils.py                # Helper functions
+│
+├── data/                       # Raw, processed, and cleaned data
+│   ├── raw/                    # Raw data as provided by Comune di Milano
+│   ├── processed/              # Intermediate processed data
+│   └── cleaned/                # Final cleaned dataset
+│
+├── tests/                       # Unit tests to ensure code correctness
+│   ├── test_data_preparation.py
+│   └── test_data_analysis.py
+│
+├── requirements.txt            # Required Python libraries for the project
+├── .gitignore                  # Files and directories to be excluded from version control
+└── README.md                   # Project documentation
 ```
 
 ### How to Use This Repository
@@ -26,19 +55,30 @@ The project repository is structured as follows:
 1. **Clone the repository**:
 
    Run the following command to clone the repository to your local machine:
-   ```bash git clone https://github.com/your-username/your-repo-name.git
+   ```bash
+   git clone https://github.com/madratak/DIQ_Project2024.git
 
 2. **Set up the environment**:
 
    Install dependencies via pip:
-   ```pip install -r requirements.txt
+   
+   ```bash
+   pip install -r requirements.txt
+
+3. **Data Loading and Cleaning**:
+
+   The raw dataset is stored in ```data/raw/Comune-di-Milano-Servizi-alla-persona-parrucchieri-estetisti.csv```.
+   Data cleaning and transformation scripts are in the ```src/data_preparation.py``` file.
+   Once cleaned, the dataset is saved in ```data/cleaned/```.
+
+4. **Analysis**:
+
+   After cleaning, data analysis (e.g., clustering, regression) can be run using the Jupyter notebooks located in the ```notebooks/``` directory.
 
 ### Collaborators
 
 This project is a collaborative effort between:
 
-- **Mauro Orazio Drago** (Project Lead)
-- **Dennis Pierantozzi**
-- **Davide Morelli**
-
-Each team member contributed to different aspects of the project, including data cleaning, analysis, and report generation. The collaboration ensures that each component of the project meets the necessary requirements and produces high-quality results.
+- [Mauro Orazio Drago](https://github.com/madratak)
+- [Dennis Pierantozzi](https://github.com/DennisPierantozzi)
+- [Davide Morelli](https://github.com/DavideMorelli)
