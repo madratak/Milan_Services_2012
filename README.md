@@ -81,4 +81,4 @@ This project is a collaborative effort between:
 
 - [Mauro Orazio Drago](https://github.com/madratak)
 - [Dennis Pierantozzi](https://github.com/DennisPierantozzi)
-- [Davide Morelli](https://github.com/DavideMorelli)
+- [Davide Morelli](https://github.com/relli-d)
