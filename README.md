@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.recipe-project.eu/wp-content/uploads/2018/05/logo_polimi.png" width="500"/>
+  <img src="https://upload.wikimedia.org/wikipedia/it/b/be/Logo_Politecnico_Milano.png" width="300"/>
 </p>
 
 # DIQ Project
