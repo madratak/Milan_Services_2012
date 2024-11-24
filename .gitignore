@@ -1,0 +1,44 @@
+# Byte-compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw and intermediate data files
+data/raw/
+data/processed/
+
+# Reports and generated outputs
+reports/*.pdf
+reports/figures/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Test coverage and other temporary files
+coverage/
+*.coverage
+.cache/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.env
+
+# Virtual environment directories
+venv/
+.env/
+*.conda
+*.venv
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
