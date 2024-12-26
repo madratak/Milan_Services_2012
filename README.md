@@ -38,7 +38,7 @@ The project repository is structured as follows:
 │
 ├── data/                       # Raw, processed, and cleaned data
 │   ├── raw/                    # Raw data as provided by Comune di Milano
-│   ├── exernal/                # Extra data used for our analysis
+│   ├── external/                # Extra data used for our analysis
 │   ├── processed/              # Intermediate processed data
 │   └── cleaned/                # Final cleaned dataset
 │
