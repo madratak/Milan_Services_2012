@@ -42,7 +42,7 @@ The project repository is structured as follows:
 │   ├── processed/              # Intermediate processed data
 │   └── cleaned/                # Final cleaned dataset
 │
-├── tests/                       # Unit tests to ensure code correctness
+├── tests/                      # Unit tests to ensure code correctness
 │   ├── test_data_preparation.py
 │   └── test_data_analysis.py
 │
