@@ -28,7 +28,7 @@ The project repository is structured as follows:
 /project-directory
 │
 ├── notebooks/                  # Jupyter Notebooks for analysis and exploration
-│   ├── 01-first-logical-notebook.ipynb
+│   ├── 01-assessment-profiling.ipynb
 │   └── prototype-notebook.ipynb
 │
 ├── src/                        # Source code for the project
