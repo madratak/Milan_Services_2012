@@ -38,7 +38,6 @@ The project repository is structured as follows:
 │   ├── raw/                    # Raw data as provided by Comune di Milano
 │   ├── external/               # Extra data used for our analysis
 │   └── cleaned/                # Final cleaned dataset
-│
 |
 ├── Report.pdf                  # Report of the project
 ├── requirements.txt            # Required Python libraries for the project
