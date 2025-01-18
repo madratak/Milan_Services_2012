@@ -20,6 +20,8 @@ The dataset contains information on commercial activities, specifically on servi
    - **Deduplication**: Identifying and removing duplicates to ensure data quality.
 3. **Data Analysis**: Performing classification on both the raw and cleaned datasets.
 
+The Report.pdf describe the process in details.
+
 ### Repo Structure
 
 The project repository is structured as follows:
@@ -37,6 +39,8 @@ The project repository is structured as follows:
 │   ├── external/               # Extra data used for our analysis
 │   └── cleaned/                # Final cleaned dataset
 │
+|
+├── Report.pdf                  # Report of the project
 ├── requirements.txt            # Required Python libraries for the project
 ├── .gitignore                  # Files and directories to be excluded from version control
 └── README.md                   # Project documentation
