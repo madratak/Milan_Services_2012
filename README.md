@@ -48,7 +48,7 @@ The project repository is structured as follows:
 
    Run the following command to clone the repository to your local machine:
    ```bash
-   git clone https://github.com/madratak/DIQ_Project2024.git
+   git clone https://github.com/madratak/Milan_Services_2012.git
 
 2. **Set up the environment**:
 
