@@ -11,14 +11,14 @@ The dataset has been sourced from the Italian open data platform of the *Comune 
 
 ### Project Overview
 
-The dataset contains information on commercial activities, specifically focusing on services like hairdressing and beauty services in Milan. This data will be cleaned, processed, and analyzed through the following pipeline:
+The dataset contains information on commercial activities, specifically on services like hairdressing and beauty services in Milan. This data will be cleaned, processed, and analyzed through the following pipeline:
 
 1. **Data Profiling**: Investigating the dataset's characteristics, missing values, and potential issues.
 2. **Data Cleaning**:
    - **Transformation & Standardization**: Formatting and ensuring consistency across data columns.
    - **Error Detection & Correction**: Handling missing values and potential outliers.
    - **Deduplication**: Identifying and removing duplicates to ensure data quality.
-3. **Data Analysis** : Performing a suitable analysis (e.g., clustering, classification, regression) on both the raw and cleaned datasets. (to modify)
+3. **Data Analysis**: Performing classification on both the raw and cleaned datasets.
 
 ### Repo Structure
 
@@ -30,13 +30,11 @@ The project repository is structured as follows:
 ├── notebooks/                  # Jupyter Notebooks for analysis and exploration
 │   ├── 01-assessment-profiling.ipynb
 │   ├── 02-cleaning.ipynb
-│   ├── 03-analysis.ipynb
-│   └── prototype-notebook.ipynb
+│   └── 03-analysis.ipynb
 │
-├── data/                       # Raw, processed, and cleaned data
+├── data/                       
 │   ├── raw/                    # Raw data as provided by Comune di Milano
 │   ├── external/               # Extra data used for our analysis
-│   ├── processed/              # Intermediate processed data
 │   └── cleaned/                # Final cleaned dataset
 │
 ├── requirements.txt            # Required Python libraries for the project
@@ -62,12 +60,11 @@ The project repository is structured as follows:
 3. **Data Loading and Cleaning**:
 
    The raw dataset is stored in ```data/raw/Comune-di-Milano-Servizi-alla-persona-parrucchieri-estetisti.csv```.
-   Data cleaning and transformation scripts are in the ```src/data_preparation.py``` file.
    Once cleaned, the dataset is saved in ```data/cleaned/```.
 
 4. **Analysis**:
 
-   After cleaning, data analysis (e.g., clustering, regression) can be run using the Jupyter notebooks located in the ```notebooks/``` directory.
+   After cleaning, data analysis can be run using the Jupyter notebooks located in the ```notebooks/``` directory.
 
 ### Collaborators
 
