@@ -28,9 +28,9 @@ The project repository is structured as follows:
 /project-directory
 │
 ├── notebooks/                  # Jupyter Notebooks for analysis and exploration
-│   ├── 01-assessment-profiling.ipynb
-│   ├── 02-cleaning.ipynb
-│   └── 03-analysis.ipynb
+│   ├── 1-assessment-profiling.ipynb
+│   ├── 2-cleaning.ipynb
+│   └── 3-analysis.ipynb
 │
 ├── data/                       
 │   ├── raw/                    # Raw data as provided by Comune di Milano
