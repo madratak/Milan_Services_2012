@@ -29,22 +29,15 @@ The project repository is structured as follows:
 │
 ├── notebooks/                  # Jupyter Notebooks for analysis and exploration
 │   ├── 01-assessment-profiling.ipynb
+│   ├── 02-cleaning.ipynb
+│   ├── 03-analysis.ipynb
 │   └── prototype-notebook.ipynb
-│
-├── src/                        # Source code for the project
-│   ├── data_preparation.py     # Data cleaning and transformation functions
-│   ├── data_analysis.py        # Data analysis and model-related functions
-│   └── utils.py                # Helper functions
 │
 ├── data/                       # Raw, processed, and cleaned data
 │   ├── raw/                    # Raw data as provided by Comune di Milano
 │   ├── external/               # Extra data used for our analysis
 │   ├── processed/              # Intermediate processed data
 │   └── cleaned/                # Final cleaned dataset
-│
-├── tests/                      # Unit tests to ensure code correctness
-│   ├── test_data_preparation.py
-│   └── test_data_analysis.py
 │
 ├── requirements.txt            # Required Python libraries for the project
 ├── .gitignore                  # Files and directories to be excluded from version control
